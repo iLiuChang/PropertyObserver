@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PropertyObserver"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "swift property observer"
   s.homepage     = "https://github.com/iLiuChang/PropertyObserver"
   s.license      = "MIT"
@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.swift_version = "5.0"
   s.source_files = "Source/*.{swift}"
+  s.resource_bundles = { 'PropertyObserver' => ['Sources/PrivacyInfo.xcprivacy'] }
 end
