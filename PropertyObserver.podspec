@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/iLiuChang/PropertyObserver.git", :tag => s.version }
   s.requires_arc = true
   s.swift_version = "5.0"
-  s.source_files = "Source/*.{swift}"
+  s.source_files = "Sources/*.{swift}"
   s.resource_bundles = { 'PropertyObserver' => ['Sources/PrivacyInfo.xcprivacy'] }
 end
